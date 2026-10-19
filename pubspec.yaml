@@ -1,0 +1,17 @@
+name: latmiyat_app
+description: تطبيق لطميات بدون نت
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/latmiyat/
